@@ -11,5 +11,17 @@ public class Main {
         for (int i = 0; i < weights.length; i++) {
             System.out.println(weights[i]);
         }
+
+
+
+
+    // задание 1
+
+    int[] one = new int[] {1, 2, 3};
+
+    double[] two = new double[] {1.57, 7.654, 9.986};
+
+    int[] three = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+
     }
 }
