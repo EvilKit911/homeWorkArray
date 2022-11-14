@@ -31,11 +31,27 @@ public class Main {
 
         System.out.println(two[0] + " , " + two[1] + " , " + two[2] );// очень нужные пробелы между значениями =)
 
-        System.out.println(one[0] + "," + three[1] + "," + three[2]
+        System.out.println(three[0] + "," + three[1] + "," + three[2]
                                   + "," + three[3] + "," + three[4]
                                   + "," + three[5] + "," + three[6]
                                   + "," + three[7] + "," + three[8]
                                     + "," + three[9] );
+
+
+    // задача 3
+        System.out.println(one[2] + "," + one[1] + "," + one[0] );
+
+        System.out.println(two[2] + " , " + two[1] + " , " + two[0] );// очень нужные пробелы между значениями =)
+
+        System.out.println(three[9] + "," + three[8]
+                    + "," + three[7] + "," + three[6]
+                    + "," + three[5] + "," + three[4]
+                    + "," + three[3] + "," + three[2]
+                    + "," + three[1] + "," + three[0] );
+
+
+
+
 
 
     }
