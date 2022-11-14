@@ -23,5 +23,20 @@ public class Main {
 
     int[] three = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 
+
+
+    // задание 2
+
+        System.out.println(one[0] + "," + one[1] + "," + one[2] );
+
+        System.out.println(two[0] + " , " + two[1] + " , " + two[2] );// очень нужные пробелы между значениями =)
+
+        System.out.println(one[0] + "," + three[1] + "," + three[2]
+                                  + "," + three[3] + "," + three[4]
+                                  + "," + three[5] + "," + three[6]
+                                  + "," + three[7] + "," + three[8]
+                                    + "," + three[9] );
+
+
     }
 }
