@@ -56,7 +56,7 @@ public class Main {
 
     // задача 3
         for (int i = one.length - 1; i >= 0; i--) { //i равен количеству ячеек пока i не будет равен нулю цикл продолжается
-            System.out.print(one[i]);               //
+            System.out.print(one[i]);               //print вывод на одной строке
             if (i != 0){                            // пока ячейка масива не последняя
                 System.out.print(",");              //ставится запитая
             }
