@@ -11,7 +11,7 @@ public class Main {
         for (int i = 0; i < weights.length; i++) {
             System.out.println(weights[i]);
         }
-
+        System.out.println(" ");
 
 
 
@@ -23,7 +23,7 @@ public class Main {
 
     int[] three = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
 
-
+        System.out.println(" ");
 
     // задание 2
 
@@ -37,6 +37,7 @@ public class Main {
                                   + "," + three[7] + "," + three[8]
                                     + "," + three[9] );
 
+        System.out.println(" ");
 
     // задача 3
         System.out.println(one[2] + "," + one[1] + "," + one[0] );
@@ -49,9 +50,15 @@ public class Main {
                     + "," + three[3] + "," + three[2]
                     + "," + three[1] + "," + three[0] );
 
+        System.out.println(" ");
 
-
-
+    //задача 4
+        for (int i = 0; i< one.length; i++){
+            if( one[i]%2 > 0){ // если число в массиве делиться на 2 с остатком больше 0 то
+                one[i] = one[i] + 1;// к числу добавляем 1
+            }
+            System.out.println(one[i]);// вывод в консоль по окончанию одного цикла
+        }
 
 
     }
