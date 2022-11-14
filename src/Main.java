@@ -27,32 +27,61 @@ public class Main {
 
     // задание 2
 
-        System.out.println(one[0] + "," + one[1] + "," + one[2] );
+        for (int i = 0; i < one.length; i++) {      // пока i меньше чем количество ячеек массива цикл продолжается
+            System.out.print(one[i]);               // print вывод на одной строке, я про это не знал...
+            if (i != one.length - 1){               //пока i не равно последней ячейке массива
+                System.out.print(",");              //ставиться запятая
+            }
+        }
 
-        System.out.println(two[0] + " , " + two[1] + " , " + two[2] );// очень нужные пробелы между значениями =)
+        System.out.println(" ");
 
-        System.out.println(three[0] + "," + three[1] + "," + three[2]
-                                  + "," + three[3] + "," + three[4]
-                                  + "," + three[5] + "," + three[6]
-                                  + "," + three[7] + "," + three[8]
-                                    + "," + three[9] );
+        for (int i = 0; i < two.length; i++) {
+            System.out.print(two[i]);
+            if (i != two.length - 1){
+                System.out.print(",");
+            }
+        }
+
+        System.out.println(" ");
+
+        for (int i = 0; i < three.length; i++) {
+            System.out.print(three[i]);
+            if (i != three.length - 1){
+                System.out.print(",");
+            }
+        }
 
         System.out.println(" ");
 
     // задача 3
-        System.out.println(one[2] + "," + one[1] + "," + one[0] );
+        for (int i = one.length - 1; i >= 0; i--) { //i равен количеству ячеек пока i не будет равен нулю цикл продолжается
+            System.out.print(one[i]);               //
+            if (i != 0){                            // пока ячейка масива не последняя
+                System.out.print(",");              //ставится запитая
+            }
+        }
+        System.out.println(" ");
 
-        System.out.println(two[2] + " , " + two[1] + " , " + two[0] );// очень нужные пробелы между значениями =)
+        for (int i = two.length - 1; i >= 0; i--) {
+            System.out.print(two[i]);
+            if (i != 0){
+                System.out.print(",");
+            }
+        }
+        System.out.println(" ");
 
-        System.out.println(three[9] + "," + three[8]
-                    + "," + three[7] + "," + three[6]
-                    + "," + three[5] + "," + three[4]
-                    + "," + three[3] + "," + three[2]
-                    + "," + three[1] + "," + three[0] );
-
+        for (int i = three.length - 1; i >= 0; i--) {
+            System.out.print(three[i]);
+            if (i != 0){
+                System.out.print(",");
+            }
+        }
         System.out.println(" ");
 
     //задача 4
+
+
         for (int i = 0; i< one.length; i++){
             if( one[i]%2 > 0){ // если число в массиве делиться на 2 с остатком больше 0 то
                 one[i] = one[i] + 1;// к числу добавляем 1
